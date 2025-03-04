@@ -9,3 +9,7 @@ module "dynamodb" {
 module "ec2-docker" {
   source = "./modules/ec2"
 }
+
+module "minikube" {
+  source = "./modules/minikube"
+}

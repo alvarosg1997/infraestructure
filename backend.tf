@@ -4,6 +4,7 @@ terraform {
     key            = "AWS/terraform.tfstate"
     region         = "eu-west-1"
     dynamodb_table = "terraform-locks"
+    profile        = "asanchez"
     encrypt        = true
   }
 }
