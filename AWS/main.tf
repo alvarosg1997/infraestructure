@@ -13,3 +13,6 @@ module "ec2-docker" {
 module "minikube" {
   source = "./modules/minikube"
 }
+module "s3" {
+  source = "./modules/s3"
+}
