@@ -7,7 +7,11 @@ module "dynamodb" {
 }
 
 module "ec2-docker" {
-  source = "./modules/ec2"
+  source = "./modules/ec2/ec2-docker"
+}
+
+module "ec2-portfolio" {
+  source = "./modules/ec2/ec2-portfolio"
 }
 
 module "minikube" {
